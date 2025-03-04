@@ -11,8 +11,29 @@ function annoy()  {
 clicks++;
    if (clicks == 1) {
 text.innerHTML = "Hey! Stop that!";
-} else if (clicks == 5) { text.innerHTML = "Stop it I said!";}
-   else if (clicks == 10) {}}
+}
+ else if (clicks == 5) { 
+   text.innerHTML = "Stop it I said!";
+}
+
+   else if (clicks == 10) {
+      text.innerHTML = "Stop clicking me!";
+   }
+
+   else if (clicks == 20) {
+      button1.classList.add("angry");
+      text.innerHTML = "You'll neve click me now!";
+   } else if (clicks == 21){
+      text.innerHTML = "Damn it!";
+button1.classList.remove("angry")
+   } else if (clicks == 25) {}}
+
+   function flashbang() {
+      clicks++;
+      if (clicks == 25) {
+         BG.classList.add("")
+      }
+   }
 
 
 var click_counter = 0;
