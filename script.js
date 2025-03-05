@@ -26,14 +26,13 @@ text.innerHTML = "Hey! Stop that!";
    } else if (clicks == 21){
       text.innerHTML = "Damn it!";
 button1.classList.remove("angry")
-   } else if (clicks == 25) {}}
-
-   function flashbang() {
-      clicks++;
-      if (clicks == 25) {
-         BG.classList.add("")
-      }
-   }
+   } else if (clicks == 25) {
+      const button2 = document.createElement("button");
+      button2.innerHTML = "PRESS ME";
+      button2.classList.add("button1");
+      button2.classList.add("button2");
+      container.appendChild(button2);
+   }}
 
 
 var click_counter = 0;
