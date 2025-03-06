@@ -1,6 +1,9 @@
-body {
-overflow: hidden;
+.CL {
 
+}
+
+.black {
+    background-color: black;
 }
 
 
@@ -18,6 +21,7 @@ overflow: hidden;
     top: 300px;
     left: 800px;
     display: flex;
+
     }
 
     .button2{
@@ -34,9 +38,12 @@ overflow: hidden;
         left: 800px;
         display: flex;
         animation: evasion 2s infinite;
-        
+        visibility: hidden;
         }
-
+        .visib{
+visibility:visible          
+            }
+        
 
 
 .angry {
@@ -83,7 +90,16 @@ top: 0px;
     position:relative;
     text-align: center;
     top: -50px;
-}
+    }
+
+    .textC{
+color: black;
+        }   
+    .textCA {
+        color: white;
+
+
+    }
 
 @keyframes evasion {
 0% {top: 300px; left: 0px;}

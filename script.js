@@ -1,5 +1,6 @@
 let text = document.getElementById("text")
 const button1 = document.getElementById("button1");
+let CL = document.getElementById("body")
 
 button1.addEventListener("click", annoy);
 
@@ -32,6 +33,12 @@ button1.classList.remove("angry")
       button2.classList.add("button1");
       button2.classList.add("button2");
       container.appendChild(button2);
+      button2.classList.add("visib")
+   } else if (clicks == 35) {
+      CL.classList.add("CL","black");
+      text.classList.add("textCA");
+      text.innerHTML ="Fine, no more click counter for you";
+      button2.classList.remove("visib");
    }}
 
 
