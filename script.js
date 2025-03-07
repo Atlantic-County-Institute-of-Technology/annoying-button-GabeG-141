@@ -1,6 +1,7 @@
 let text = document.getElementById("text")
 const button1 = document.getElementById("button1");
-let CL = document.getElementById("body")
+const button2 = document.createElement("button");
+let CL = document.getElementById("body");
 
 button1.addEventListener("click", annoy);
 
@@ -28,7 +29,6 @@ text.innerHTML = "Hey! Stop that!";
       text.innerHTML = "Damn it!";
 button1.classList.remove("angry")
    } else if (clicks == 25) {
-      const button2 = document.createElement("button");
       button2.innerHTML = "PRESS ME";
       button2.classList.add("button1");
       button2.classList.add("button2");
