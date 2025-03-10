@@ -33,7 +33,7 @@ button1.classList.remove("angry")
       button2.classList.add("button1");
       button2.classList.add("button2");
       container.appendChild(button2);
-      button2.classList.add("visib")
+      button2.classList.add("visib");
    } else if (clicks == 35) {
       CL.classList.add("CL","black");
       text.classList.add("textCA");
