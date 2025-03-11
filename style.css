@@ -1,9 +1,7 @@
-.CL {
 
-}
 
 .black {
-    background-color: black;
+    background-color: transparent;
 }
 
 
@@ -110,3 +108,19 @@ color: black;
 
 
 
+.TFC {
+    z-index: 7;
+    position: relative;
+    top:-440px;
+    left: -15px;
+    visibility: hidden;
+}
+
+.TFCvis {
+    z-index: 1;
+    position: absolute;
+    top:-500px;
+    left: 0px;
+    visibility: visible;
+    
+}
