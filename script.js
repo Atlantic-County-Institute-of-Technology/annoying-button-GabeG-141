@@ -51,7 +51,7 @@ button1.classList.remove("angry")
    } else if (clicks == 50) {
       text.innerHTML = "half an inch away from the screen would be preferable"
    } else if (clicks == 51) {
-      TFC.classList.replace("TFC" , "TFCvisib")
+      TFC.classList.replace("TFC" , "TFCvis")
       TFC.play();
    }}
 

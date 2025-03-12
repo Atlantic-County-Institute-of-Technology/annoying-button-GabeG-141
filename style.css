@@ -106,11 +106,10 @@ color: black;
 
 }
 
-
-
 .TFC {
+    border: 2px solid red;
     z-index: 7;
-    position: relative;
+    position: absolute;
     top:-440px;
     left: -15px;
     visibility: hidden;
@@ -119,8 +118,8 @@ color: black;
 .TFCvis {
     z-index: 1;
     position: absolute;
-    top:-500px;
-    left: 0px;
+    top:-175px;
+    left: -50px;
     visibility: visible;
     
 }
